@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:4000";
+  const url = "https://fur-del-backend.onrender.com";
   const [token, setToken] = useState("");
   const [furniture_list, setFurnitureList] = useState([]);
 
