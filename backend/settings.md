@@ -1,0 +1,5 @@
+- npm init
+- entry point: server.js
+- npm install express mongoose jsonwebtoken bcrypt cors dotenv body-parser multer stripe validator nodemon
+- at the "scripts", delete and change the line -> "server": "nodemon server.js"
+- after the "main", add this line -> "type": "module"

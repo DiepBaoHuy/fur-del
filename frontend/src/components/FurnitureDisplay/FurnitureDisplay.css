@@ -1,0 +1,18 @@
+.furniture-display {
+  margin-top: 30px;
+}
+
+.furniture-display h2 {
+  color: #3a3a3a;
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+  text-align: center;
+}
+
+.furniture-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+}
